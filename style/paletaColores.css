@@ -1,0 +1,204 @@
+/*backgrounds*/
+.bg-tono0{background-color: white;}
+.bg-tono01{background-color: #e9e3e3;}
+.bg-tono1{background-color: #199657cc;}
+.bg-tono2{background-color: #218855cc;}
+.bg-tono3{background-color: #1b5e3ccc;}
+.bg-tono3{background-color: #1c4631;}
+
+
+/*buttonts*/
+.btn-tono1{
+    background-color: #4fe79bcc;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn-tono2{
+    background-color: #1b5e3ccc;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn-anadir{
+  padding: 5px;
+  background-color: #048851;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-anadir:hover{
+  background-color: #054128;
+}
+
+.btn-borrar{
+  padding: 5px;
+  background-color: rgb(226, 34, 34);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-borrar:hover{
+  background-color: rgb(145, 8, 8);
+}
+
+.btn-editar1,.btn-editar2{
+  padding: 5px;
+  background-color: rgb(34, 188, 226);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-editar1:hover,.btn-editar2:hover{
+  background-color: rgb(16, 109, 133);
+}
+
+.btn-confirmar1,.btn-confirmar2{
+  padding: 5px;
+  background-color: #136103;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-confirmar1:hover,.btn-confirmar2:hover{
+  background-color: #103b07;
+}
+
+
+/*tablas*/
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+     
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+
+/* links fonts*/
+.a h3{
+    width: 30%;
+    }
+    
+    
+a h3:visited{
+    color:#27ac69cc ;
+    text-decoration: none;
+}
+    
+.a h3:hover{
+    color: #4fe79bcc;
+    cursor: pointer;
+} 
+
+/*fonts*/
+h1{
+    color: #27ac69cc;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1:hover,h2:hover{
+   cursor:default;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: black;
+}
+
+a h3{
+    font-size:smaller ;
+    color: #27ac69cc;
+}
+
+h3{
+    color: white;
+}
+
+h3:hover{
+    color: #a4dba3e1;
+    
+}
+
+h4{
+    font-size:smaller ;
+    color: white;
+    text-decoration: none;
+}
+

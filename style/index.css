@@ -1,0 +1,100 @@
+.container-xxl{
+    border-radius: 60px;
+    height: auto;
+    margin-top: 20vh;
+}
+@media (max-width: 575px) {
+    .container-xxl{
+        margin-top: 5vh;
+    }
+}
+
+.colizq,.colder{
+    height: 100%;
+}
+
+#borde{
+    height: 100%;
+     border-left: dotted 2px #1e965acc;
+
+}
+@media (max-width: 575px) {
+        #borde{
+            border-left: none;
+            border-top: dotted 2px #1e965acc;
+    }
+}
+    
+/*img logo*/
+.logo{
+    width:50% ;
+   }
+@media (max-width: 575px) {
+    .logo{
+      width:30% ;
+     }
+}
+
+
+/*FORM*/
+.form-control{
+    position: relative;
+    float: left;
+}
+ 
+/*img form*/
+/*PC*/
+@media (min-width: 575px) {
+    .user{
+        float: left;
+        width: 70%;
+    }
+    .passw{
+        float: left;
+        width: 70%;
+    }
+    .usuario{
+        float: left;
+    }
+    .contra{
+        float: left;
+    }
+}
+
+
+/*mobile*/
+@media (max-width: 575px) {
+    .user{
+        width: 50%;
+        float: left;
+    }
+    .passw{
+        width: 50%;
+        float: left;
+    }
+    .usuario{
+        float: left;
+        width: 80%;
+    }
+    .contra{
+        float: left;
+    }
+}
+
+  
+
+/*genral*/
+
+.row{
+    justify-content: center;
+}
+
+
+  input:valid {
+    border: 2px solid rgb(24, 219, 6);
+  }
+
+
+
+
+

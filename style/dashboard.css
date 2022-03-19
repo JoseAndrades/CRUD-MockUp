@@ -1,0 +1,240 @@
+/*PC*/
+@media (min-width: 1200px) {
+    /*nav*/
+    .logonav{
+        width: 15%;
+        margin-left: 1.5vw;
+    }
+    .navtext{
+        font-size:larger;
+    }
+    .saludo{
+        margin-left:30vw ;
+    }
+    .conf{
+        width: 15%;
+        margin-left: 21vw;
+    }
+    #btnLat{
+        display: none;
+    }
+
+    .dropdown-menu{
+        margin-left: 15vw;
+    }
+
+    /*contenido*/
+    #contenido{
+        height: 100%;
+    }
+    /*menuLat*/
+
+    /*der*/
+    #casa{
+        width: 10%;
+    }
+    #linea{
+        height: 15vh;
+    }
+    #bloque{
+        background-color: #218855cc;
+        margin-left: 0px;
+        margin: 15px;
+        padding:35px;
+        padding-right:10px ;
+    }
+    .imgsel{
+       width:100%;
+    }
+    .imguser{
+        width:30%;
+    }
+    .textuser{
+        padding: 0pc;
+        margin: 0px;
+    }
+
+
+    /*tablas*/
+    .imgedit{
+        width:60%;
+     }
+     .imgborr{
+        width:60%;
+     }
+
+}
+
+/*TABLETS*/
+@media (min-width: 575px) and (max-width: 1200px){
+    /*nav*/
+    .logonav{
+        width: 25%;
+    }
+    .navtext{
+        font-size:larger;
+    }
+    .conf{
+        width: 20%;
+    }
+    /*contenido*/
+    #menu{
+        display:none;
+    }
+    #contenido{
+        width: 100%;
+    }
+    #menuCentral{
+        display: "block";
+        
+    }
+    #bloque{
+        background-color: #218855cc;
+        margin-left: 0px;
+        margin: 15px;
+        padding: 40px;
+        padding-left: 30px ;
+        padding-right: 30px ;
+    }
+    .imgsel{
+        width:60% ;
+    }
+}
+
+/*MOVIL*/
+@media (max-width: 575px) {
+    /*nav*/
+    .nav{
+        padding: 30px;
+    }
+    .logonav{
+        margin-left: 5vw;
+        width: 60%;
+    }
+    #logonav{
+        padding-right: 0;
+    }
+    .navtext{
+        display: none;
+    }
+    .conf{
+        width: 40%;
+        margin-left:7vw;  
+    }
+    .dropdown-menu{
+       margin-left: -20vw;
+    }
+    #btnLat{
+        display: block;
+    }
+
+
+    /*contenido*/
+    #contenido{
+        height: auto;
+        padding: 10px;
+    }
+    /*colizq*/
+    #menu{
+        display:none;
+    }
+    /*colder*/
+
+    #linea{
+        display:list-item;
+    }
+    #bloque{
+        background-color: #218855cc;
+        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 30px;
+    }
+    .imgsel{
+        width: 70%;
+    }
+
+
+    /*tablas*/
+      .imgedit{
+        width:25%;
+     }
+     .imgborr{
+        width:25%;
+     }
+
+}
+
+/*GENERAL*/
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+}
+
+/*nav*/
+#nav li{
+    list-style: none;
+}
+
+.conf:hover{
+    cursor: pointer;
+}
+
+#textuser h4{
+    color: black;
+}
+#imguser{
+    width: 20%;
+}
+
+
+/*contenido*/
+/*colizq*/
+#menLat h4:hover{
+    cursor: pointer;
+    color:#a4dba3e1 ;
+}
+
+#menudesp{
+    height: fit-content;
+}
+
+#menLat{
+    padding: 2vw;
+    border-bottom: solid 1px #218855cc;
+}
+
+#casa:hover{
+    cursor: pointer;
+}
+
+/*colder*/
+/*menucentral*/
+#linea{
+    height: 25px;
+}
+
+#bloque:hover{
+    cursor: pointer;
+    box-shadow:0px 0px 0px 2px #e9e3e3 inset;
+}
+
+#bloque:hover{
+    color:#a4dba3e1 ;;
+}
+#bloque{
+    justify-content: center;
+}
+#menuCentral{
+    display: block;
+}
+
+/*tablas*/
+.imgedit:hover{
+    cursor: pointer;
+ }
+ .imgborr:hover{
+    cursor: pointer;
+ }
+
+
